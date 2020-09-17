@@ -7,6 +7,6 @@ int main() {
   int c = a;
   a = b;
   b = c;
-  cout << a << b << c << endl;
+  cout << a << b << endl;
   return 0;
 }
