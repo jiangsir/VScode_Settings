@@ -1,10 +1,10 @@
 {
-    "python.pythonPath": "C:\\Users\\user\\Anaconda3\\envs\\py38\\python.exe",
     "files.associations": {
         "iosfwd": "cpp",
         "string": "cpp",
         "utility": "cpp",
         "vector": "cpp"
     },
-    "python.dataScience.jupyterServerURI": "local"
+    "python.dataScience.jupyterServerURI": "local",
+    "C_Cpp.clang_format_fallbackStyle": "Google"
 }
