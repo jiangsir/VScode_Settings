@@ -2,7 +2,8 @@
 using namespace std;
 
 int main(){
-	int a=3, b=5;
+	int a, b;
+	cin >> a >> b;
 	int c = a;
 	a = b;
 	b = c;

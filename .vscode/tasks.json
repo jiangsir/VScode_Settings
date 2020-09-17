@@ -6,7 +6,7 @@
         {
             "label": "windows build",
             "type": "shell",
-            "command": "g++.exe",
+            "command": "g++",
             "args": [
                 "-std=c++11","-g", "${file}", "-o", "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
