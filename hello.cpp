@@ -5,8 +5,8 @@ int main() {
   int a, b;
   cin >> a >> b;
   int c = a;
-  cout << c << endl;
   a = b;
   b = c;
+  cout << a << b << c << endl;
   return 0;
 }
