@@ -23,6 +23,8 @@ Apply Changes
 
 2. 安裝 VSCode
 
+![](images/2020-09-17-17-14-37.png)
+
 3. 下載 CPP 專案設定檔
    https://github.com/jiangsir/VScode_debug
 
