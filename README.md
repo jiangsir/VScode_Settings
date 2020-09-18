@@ -1,6 +1,9 @@
 # vscode Debug 設定
 
-1. 下載 MinGW 並依預設值安裝在 C:\MinGW 內
+1. 下載 MinGW 並依預設值安裝在 C:\MinGW 內  
+MinGW 是 C/C++ 的編譯器。  
+下載網址: https://sourceforge.net/projects/mingw/
+
 
 ![](images/2020-09-17-16-41-02.png)
 
