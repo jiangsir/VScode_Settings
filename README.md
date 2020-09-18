@@ -28,7 +28,16 @@ Apply Changes
 3. 下載 CPP 專案設定檔
    https://github.com/jiangsir/VScode_debug
 
+![](images/2020-09-18-10-08-07.png)
+
    解開後，直接讓 VScode 開啟資料夾即可開始進行開發。
+
+![](images/2020-09-18-10-11-19.png)
+
+檔案結構如下:  
+![](images/2020-09-18-10-12-23.png)
+
+點開 hello.cpp 就可以開始進行開發與 Debug
 
 4. 進行 Debug
 	
