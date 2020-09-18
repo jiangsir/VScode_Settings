@@ -18,7 +18,7 @@ Apply Changes
 
 ![](images/2020-09-17-16-15-36.png)
 
-增加一筆紀錄 C:\MinGW\bin 
+增加一筆紀錄 C:\MinGW\bin  
 ![](images/2020-09-17-16-15-45.png)
 
 2. 安裝 VSCode
