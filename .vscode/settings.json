@@ -6,6 +6,6 @@
         "vector": "cpp"
     },
     "python.dataScience.jupyterServerURI": "local",
-    "C_Cpp.clang_format_fallbackStyle": "Google",
-    "pasteImage.path": "${projectRoot}/images"
+    "pasteImage.path": "${projectRoot}/images",
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}"
 }
