@@ -6,7 +6,7 @@
     "configurations": [
         {
             "preLaunchTask": "windows build",
-            "name": "(C/C++) Windows Debug",
+            "name": "(Windows) MinGW Launch",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
@@ -14,7 +14,7 @@
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}",
             "environment": [],
-            "externalConsole": true,
+            "externalConsole": false,
             "MIMode": "gdb",
             "miDebuggerPath": "gdb.exe",
             "setupCommands": [
@@ -26,8 +26,21 @@
             ],
         },
         {
+            "preLaunchTask": "Linux build",
+            "name": "(Linux) gnu Launch c++",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb"
+        },
+        {
             "preLaunchTask": "clang++ build active file",
-            "name": "(C/C++) MacOSX Debug",
+            "name": "(OSX) clang Launch c++",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
@@ -40,7 +53,7 @@
         },
         {
             "preLaunchTask": "g++ build active file",
-            "name": "(C/C++) WSL Debug",
+            "name": "(WSL) Launch g++",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
@@ -51,7 +64,7 @@
             "externalConsole": true,
         },
         {
-            "name": "Python Debug",
+            "name": "Python: Current File",
             "type": "python",
             "request": "launch",
             "program": "${file}",

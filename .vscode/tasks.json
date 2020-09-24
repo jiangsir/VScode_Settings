@@ -6,7 +6,7 @@
         {
             "label": "windows build",
             "type": "shell",
-            "command": "g++",
+            "command": "g++.exe",
             "args": [
                 "-std=c++11","-g", "${file}", "-o", "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
@@ -14,6 +14,33 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "Linux build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++11",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "presentation": {
+                "echo": true,
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false,
+                "reveal": "silent"
+            },
         },
         {
             "label": "clang++ build active file",
