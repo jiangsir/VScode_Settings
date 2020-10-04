@@ -62,6 +62,7 @@
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": true,
+            "MIMode": "gdb"
         },
         {
             "name": "Python: Current File",
