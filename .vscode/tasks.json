@@ -4,9 +4,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "windows build",
+            "label": "MinGW build",
             "type": "shell",
-            "command": "g++.exe",
+            "command": "g++",
             "args": [
                 "-std=c++11","-g", "${file}", "-o", "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
@@ -71,7 +71,7 @@
             },
         },
         {
-            "label": "g++ build active file",
+            "label": "GNU g++ build",
             "type": "shell",
             "command": "/usr/bin/g++",
             "args": [

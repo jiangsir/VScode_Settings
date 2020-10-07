@@ -29,7 +29,7 @@
             "cStandard": "c11",
             "cppStandard": "c++11",
             "intelliSenseMode": "gcc-x64",
-            "compilerPath": "C:/mingw-w64/mingw64/bin/g++.exe"
+            "compilerPath": "g++.exe"
         },
         {
             "name": "Linux",

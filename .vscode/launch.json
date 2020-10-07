@@ -5,8 +5,8 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "preLaunchTask": "windows build",
-            "name": "(Windows) MinGW Launch",
+            "preLaunchTask": "MinGW build",
+            "name": "(Windows CMD) MinGW g++ Launch",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
@@ -24,6 +24,20 @@
                     "ignoreFailures": true
                 }
             ],
+        },
+        {
+            "preLaunchTask": "GNU g++ build",
+            "name": "(Windows Remote WSL) GNU g++ Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb"
         },
         {
             "preLaunchTask": "Linux build",
@@ -50,19 +64,6 @@
             "environment": [],
             "externalConsole": true,
             "MIMode": "lldb"
-        },
-        {
-            "preLaunchTask": "g++ build active file",
-            "name": "(WSL) Launch g++",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": true,
-            "MIMode": "gdb"
         },
         {
             "name": "Python: Current File",
