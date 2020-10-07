@@ -1,5 +1,7 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
+
+int arr[100] = {1};
 
 int main() {
     int n, a = 0, b = 1;
