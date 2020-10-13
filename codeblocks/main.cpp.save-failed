@@ -1,8 +1,7 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-int arr[100] = {1};
-
+int[] arrs = {0, 0, 0};
 int main() {
     int n, a = 0, b = 1;
     cin >> n;
