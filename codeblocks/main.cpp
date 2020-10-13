@@ -8,7 +8,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         b = a + b;
         a = b - a;
-        cout << b << endl;
     }
+    cout << b << endl;
     return 0;
 }

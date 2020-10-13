@@ -1,7 +1,7 @@
 n = int(input())
-a = 0
-b = 1
-for i in range(n):
-    b = a + b
-    a = b - a
-    print(b)
+sum = 1
+i = 1
+for i in range(1, n+1):
+    sum = sum*i
+
+print(sum)
