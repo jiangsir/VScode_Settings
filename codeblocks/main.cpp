@@ -12,7 +12,7 @@ int main() {
         a = b - a;
         arra[i % 2] = a;
         arra[(i + 1) % 2] = b;
-        cout << b << endl;
     }
+    cout << b << endl;
     return 0;
 }

@@ -1,4 +1,11 @@
+<<<<<<< HEAD
+# depslib dependency file v1.0
+1602032908 source:c:\users\user\documents\vscode_debug\codeblocks\main.cpp
+	<iostream>
+
+=======
 # depslib dependency file v1.0
 1602057625 source:c:\users\jiangsir\documents\vscode_debug\codeblocks\main.cpp
 	<bits/stdc++.h>
 
+>>>>>>> 3ca6d9c4fd6d7e13f5f97fa473cd71211607ad04
