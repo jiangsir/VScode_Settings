@@ -12,5 +12,6 @@ int main() {
         a = b - a;
         cout << b << endl;
     }
+    system("PAUSE");
     return 0;
 }
