@@ -9,15 +9,15 @@
 0
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
-    int n;
-    while(cin >> n){
-        if (n==0)
+int main() {
+    int y;
+    while (cin >> y) {
+        if (y == 0)
             break;
-        
-        cout << "讀到 n = " << n << "\n";
+
+        cout << "讀取 y=" << y << "\n";
     }
 
     return 0;
