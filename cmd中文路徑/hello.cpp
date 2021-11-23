@@ -10,7 +10,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         b = a + b;
         a = b - a;
-        cout << b << endl;
+        cout << "中文輸出: " << b << endl;
     }
     return 0;
 }

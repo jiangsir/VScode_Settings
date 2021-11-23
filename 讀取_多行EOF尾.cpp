@@ -8,11 +8,11 @@ EOF輸入的結束。
 2019
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
+int main() {
     int n;
-    while(cin >> n){        
+    while (cin >> n) {
         cout << "讀到 n = " << n << "\n";
     }
 
