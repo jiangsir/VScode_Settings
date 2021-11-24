@@ -7,3 +7,4 @@ int main() {
     cout << h1*60+m1 << "\n";
     return 0;
 }
+
