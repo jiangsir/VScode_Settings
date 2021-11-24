@@ -7,7 +7,7 @@ int main() {
     printf("%.20f\n", pi);
     long long ll = pi * 1000000000000000000;
     cout << ll << endl;
-    string pis = to_string((long long int)(pi * 1.0e+18));
+    string pis = to_string((long long int)(acos(-1) * 1.0e+18));
     cout << pis << endl;
     return 0;
 }
