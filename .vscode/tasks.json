@@ -25,7 +25,8 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}.exe"
+                //"${fileDirname}/${fileBasenameNoExtension}.exe"
+                "${workspaceFolder}/a.out"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
@@ -80,7 +81,8 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}.exe"
+                //"${fileDirname}/${fileBasenameNoExtension}.exe"
+                "${workspaceFolder}/a.out"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
